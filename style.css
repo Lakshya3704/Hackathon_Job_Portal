@@ -1,0 +1,401 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:burlywood;
+}
+
+header {
+    background-color: aqua;
+    color: #fff;
+    padding: 20px;
+}
+.Qu{
+    text-align: center;
+    color: green;
+}
+.Qz{
+    text-align: center;
+    font-size: 40px;
+    color:firebrick;
+}
+header h1 {
+    margin: 0;
+}
+#app{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search-box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.Job.List {
+    padding: 20px;
+}
+
+.list {
+    margin-bottom: 30px;
+}
+
+.list h4 {
+    margin-bottom: 10px;
+}
+
+.list p {
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial-item {
+    margin-bottom: 20px;
+}
+
+.cta {
+    background-color: white;
+    color: black;
+    padding: 50px 20px;
+    text-align: center;
+}
+.RE{
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#login {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#job-search-form input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#job-search-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.featured-jobs {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-jobs h2 {
+    margin-bottom: 20px;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-item {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.testimonial-item p {
+    margin-bottom: 10px;
+}
+
+.testimonial-item cite {
+    font-style: italic;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+    
+
+}
+
+
+
+/* Registration Page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#reg{
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section#registration {
+    margin-top: 20px;
+}
+
+section#registration h2 {
+    margin-bottom: 20px;
+}
+
+section#registration form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+section#registration label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+section#registration input[type="text"],
+section#registration input[type="email"],
+section#registration input[type="password"],
+section#registration input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+section#registration input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+section#registration input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: blue;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+/* Resume Page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section#resume-upload {
+    margin-top: 20px;
+}
+
+section#resume-upload h2 {
+    margin-bottom: 20px;
+}
+
+.upload-form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.upload-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.upload-form input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.upload-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.upload-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+ 
+#res{
+    text-align: center;
+}
+#resume-upload{
+    text-align: center;
+}
+
+/* Jobs Page */
+#JO{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    
+
+}
+/* About_us Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.AU{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contact Us */
+.CU{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.CI{
+    text-align: center;
+    font-size: 25px;
+}
+.CS{
+    text-align: center;
+    font-size: 20px;
+}
+.EM{
+    font-size: 25px;
+}
+
